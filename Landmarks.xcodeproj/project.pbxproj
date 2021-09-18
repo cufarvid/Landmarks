@@ -15,6 +15,7 @@
 		DACA542326F3E84900B2203E /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA542226F3E84900B2203E /* LandmarksUITests.swift */; };
 		DACA543126F6526D00B2203E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543026F6526D00B2203E /* CircleImage.swift */; };
 		DACA543326F6536600B2203E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543226F6536600B2203E /* MapView.swift */; };
+		DACA543626F65A1000B2203E /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA543526F65A1000B2203E /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DACA542426F3E84900B2203E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DACA543026F6526D00B2203E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		DACA543226F6536600B2203E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DACA543526F65A1000B2203E /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		DACA540426F3E84700B2203E /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				DACA543426F659C300B2203E /* Resources */,
 				DACA540526F3E84700B2203E /* LandmarksApp.swift */,
 				DACA540726F3E84700B2203E /* ContentView.swift */,
 				DACA540926F3E84900B2203E /* Assets.xcassets */,
@@ -134,6 +137,14 @@
 				DACA542426F3E84900B2203E /* Info.plist */,
 			);
 			path = LandmarksUITests;
+			sourceTree = "<group>";
+		};
+		DACA543426F659C300B2203E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DACA543526F65A1000B2203E /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +252,7 @@
 			files = (
 				DACA540D26F3E84900B2203E /* Preview Assets.xcassets in Resources */,
 				DACA540A26F3E84900B2203E /* Assets.xcassets in Resources */,
+				DACA543626F65A1000B2203E /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
