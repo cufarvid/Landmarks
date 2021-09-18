@@ -13,6 +13,7 @@
 		DACA540D26F3E84900B2203E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACA540C26F3E84900B2203E /* Preview Assets.xcassets */; };
 		DACA541826F3E84900B2203E /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA541726F3E84900B2203E /* LandmarksTests.swift */; };
 		DACA542326F3E84900B2203E /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA542226F3E84900B2203E /* LandmarksUITests.swift */; };
+		DACA543126F6526D00B2203E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543026F6526D00B2203E /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		DACA541E26F3E84900B2203E /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACA542226F3E84900B2203E /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		DACA542426F3E84900B2203E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACA543026F6526D00B2203E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				DACA540526F3E84700B2203E /* LandmarksApp.swift */,
 				DACA540726F3E84700B2203E /* ContentView.swift */,
 				DACA540926F3E84900B2203E /* Assets.xcassets */,
+				DACA543026F6526D00B2203E /* CircleImage.swift */,
 				DACA540E26F3E84900B2203E /* Info.plist */,
 				DACA540B26F3E84900B2203E /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			files = (
 				DACA540826F3E84700B2203E /* ContentView.swift in Sources */,
 				DACA540626F3E84700B2203E /* LandmarksApp.swift in Sources */,
+				DACA543126F6526D00B2203E /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
