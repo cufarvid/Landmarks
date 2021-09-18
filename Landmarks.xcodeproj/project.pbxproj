@@ -18,6 +18,8 @@
 		DACA543626F65A1000B2203E /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA543526F65A1000B2203E /* landmarkData.json */; };
 		DACA543A26F65A7700B2203E /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543926F65A7700B2203E /* Landmark.swift */; };
 		DACA543C26F65CC000B2203E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543B26F65CC000B2203E /* ModelData.swift */; };
+		DACA544026F660E200B2203E /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543F26F660E200B2203E /* LandmarkRow.swift */; };
+		DACA544226F661E900B2203E /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA544126F661E900B2203E /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		DACA543526F65A1000B2203E /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		DACA543926F65A7700B2203E /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		DACA543B26F65CC000B2203E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		DACA543F26F660E200B2203E /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		DACA544126F661E900B2203E /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,8 @@
 				DACA540726F3E84700B2203E /* ContentView.swift */,
 				DACA543026F6526D00B2203E /* CircleImage.swift */,
 				DACA543226F6536600B2203E /* MapView.swift */,
+				DACA543F26F660E200B2203E /* LandmarkRow.swift */,
+				DACA544126F661E900B2203E /* LandmarkList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -302,8 +308,10 @@
 				DACA540826F3E84700B2203E /* ContentView.swift in Sources */,
 				DACA543326F6536600B2203E /* MapView.swift in Sources */,
 				DACA540626F3E84700B2203E /* LandmarksApp.swift in Sources */,
+				DACA544226F661E900B2203E /* LandmarkList.swift in Sources */,
 				DACA543126F6526D00B2203E /* CircleImage.swift in Sources */,
 				DACA543A26F65A7700B2203E /* Landmark.swift in Sources */,
+				DACA544026F660E200B2203E /* LandmarkRow.swift in Sources */,
 				DACA543C26F65CC000B2203E /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
