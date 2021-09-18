@@ -20,6 +20,7 @@
 		DACA543C26F65CC000B2203E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543B26F65CC000B2203E /* ModelData.swift */; };
 		DACA544026F660E200B2203E /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543F26F660E200B2203E /* LandmarkRow.swift */; };
 		DACA544226F661E900B2203E /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA544126F661E900B2203E /* LandmarkList.swift */; };
+		DACA544426F662D900B2203E /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA544326F662D900B2203E /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		DACA543B26F65CC000B2203E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		DACA543F26F660E200B2203E /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		DACA544126F661E900B2203E /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		DACA544326F662D900B2203E /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 				DACA543226F6536600B2203E /* MapView.swift */,
 				DACA543F26F660E200B2203E /* LandmarkRow.swift */,
 				DACA544126F661E900B2203E /* LandmarkList.swift */,
+				DACA544326F662D900B2203E /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				DACA543326F6536600B2203E /* MapView.swift in Sources */,
 				DACA540626F3E84700B2203E /* LandmarksApp.swift in Sources */,
 				DACA544226F661E900B2203E /* LandmarkList.swift in Sources */,
+				DACA544426F662D900B2203E /* LandmarkDetail.swift in Sources */,
 				DACA543126F6526D00B2203E /* CircleImage.swift in Sources */,
 				DACA543A26F65A7700B2203E /* Landmark.swift in Sources */,
 				DACA544026F660E200B2203E /* LandmarkRow.swift in Sources */,
