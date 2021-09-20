@@ -12,7 +12,7 @@ struct CategoryRow: View {
     var items: [Landmark]
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text(categoryName)
                 .font(.headline)
                 .padding(.leading, 15)
