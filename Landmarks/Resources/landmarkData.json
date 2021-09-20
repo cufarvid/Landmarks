@@ -6,7 +6,7 @@
         "state": "California",
         "id": 1001,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavourite": true,
         "park": "Joshua Tree National Park",
         "coordinates": {
             "longitude": -116.166868,
@@ -22,7 +22,7 @@
         "state": "Alaska",
         "id": 1002,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavourite": false,
         "park": "Lake Clark National Park and Preserve",
         "coordinates": {
             "longitude": -152.665167,
@@ -38,7 +38,7 @@
         "state": "Alaska",
         "id": 1003,
         "isFeatured": false,
-        "isFavorite": true,
+        "isFavourite": true,
         "park": "Klondike Gold Rush National Historical Park",
         "coordinates": {
             "longitude": -135.334571,
@@ -54,7 +54,7 @@
         "state": "Montana",
         "id": 1004,
         "isFeatured": true,
-        "isFavorite": true,
+        "isFavourite": true,
         "park": "Glacier National Park",
         "coordinates": {
             "longitude": -113.536248,
@@ -70,7 +70,7 @@
         "state": "Alaska",
         "id": 1005,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavourite": false,
         "park": "Lake Clark National Park and Preserve",
         "coordinates": {
             "longitude": -153.849883,
@@ -86,7 +86,7 @@
         "state": "Montana",
         "id": 1006,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavourite": false,
         "park": "Glacier National Park",
         "coordinates": {
             "longitude": -113.934831,
@@ -102,7 +102,7 @@
         "state": "Alaska",
         "id": 1007,
         "isFeatured": true,
-        "isFavorite": false,
+        "isFavourite": false,
         "park": "Charley Rivers National Preserve",
         "coordinates": {
             "longitude": -143.122586,
@@ -118,7 +118,7 @@
         "state": "Alaska",
         "id": 1008,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavourite": false,
         "park": "Wrangell-St. Elias National Park and Preserve",
         "coordinates": {
             "longitude": -141.518167,
@@ -134,7 +134,7 @@
         "state": "Alaska",
         "id": 1009,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavourite": false,
         "park": "State Recreation Area",
         "coordinates": {
             "longitude": -150.086103,
@@ -150,7 +150,7 @@
         "state": "Washington",
         "id": 1010,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavourite": false,
         "park": "North Cascades National Park",
         "coordinates": {
             "longitude": -121.17799,
@@ -166,7 +166,7 @@
         "state": "Virginia",
         "id": 1011,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavourite": false,
         "park": "Chincoteague National Wildlife Refuge",
         "coordinates": {
             "longitude": -75.383212,
@@ -182,7 +182,7 @@
         "state": "New Hampshire",
         "id": 1012,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavourite": false,
         "park": "Umbagog National Wildlife Refuge",
         "coordinates": {
             "longitude": -71.056816,
