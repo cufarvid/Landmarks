@@ -1,13 +1,14 @@
 {
     "aps": {
         "alert": {
-            "body": "Test message",
-            "title": "Optional title",
-            "subtitle": "Optional subtitle"
+            "title": "Silver Salmon Creek1",
+            "body": "You are within 5 kilometers of Silver Salmon Creek."
         },
-        "category": "myCategory",
+        "category": "LandmarkNear",
         "thread-id": "5280"
     },
+    
+    "landmarkIndex": 1,
     
     "WatchKit Simulator Actions": [
         {
