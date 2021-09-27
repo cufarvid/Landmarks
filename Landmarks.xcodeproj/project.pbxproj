@@ -33,7 +33,6 @@
 		DA97EA5626FBC6AF009C626F /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97EA5526FBC6AF009C626F /* PageControl.swift */; };
 		DAC9E5872702374C001442DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC9E5862702374C001442DE /* Assets.xcassets */; };
 		DAC9E58D2702374C001442DE /* WatchLandmarks WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DAC9E58C2702374C001442DE /* WatchLandmarks WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DAC9E5922702374D001442DE /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC9E5912702374D001442DE /* LandmarksApp.swift */; };
 		DAC9E5942702374D001442DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC9E5932702374D001442DE /* ContentView.swift */; };
 		DAC9E5962702374D001442DE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC9E5952702374D001442DE /* NotificationController.swift */; };
 		DAC9E5982702374D001442DE /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC9E5972702374D001442DE /* NotificationView.swift */; };
@@ -44,6 +43,18 @@
 		DAC9E5B52702374E001442DE /* WatchLandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC9E5B42702374E001442DE /* WatchLandmarksUITests.swift */; };
 		DAC9E5B72702374E001442DE /* WatchLandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC9E5B62702374E001442DE /* WatchLandmarksUITestsLaunchTests.swift */; };
 		DAC9E5BA2702374E001442DE /* WatchLandmarks.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DAC9E5842702374A001442DE /* WatchLandmarks.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DAC9E5C9270238C8001442DE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA061CF626F92574008A94CA /* Profile.swift */; };
+		DAC9E5CA270238C8001442DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACA540926F3E84900B2203E /* Assets.xcassets */; };
+		DAC9E5CB270238C8001442DE /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = DA061CD726F91287008A94CA /* hikeData.json */; };
+		DAC9E5CC270238C8001442DE /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA061CD926F912AC008A94CA /* Hike.swift */; };
+		DAC9E5CD270238C8001442DE /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA540526F3E84700B2203E /* LandmarksApp.swift */; };
+		DAC9E5CE270238C8001442DE /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543F26F660E200B2203E /* LandmarkRow.swift */; };
+		DAC9E5CF270238C8001442DE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543226F6536600B2203E /* MapView.swift */; };
+		DAC9E5D0270238C8001442DE /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543926F65A7700B2203E /* Landmark.swift */; };
+		DAC9E5D1270238C8001442DE /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543026F6526D00B2203E /* CircleImage.swift */; };
+		DAC9E5D2270238C8001442DE /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA544126F661E900B2203E /* LandmarkList.swift */; };
+		DAC9E5D3270238C8001442DE /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA543526F65A1000B2203E /* landmarkData.json */; };
+		DAC9E5D4270238C8001442DE /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA543B26F65CC000B2203E /* ModelData.swift */; };
 		DACA540626F3E84700B2203E /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA540526F3E84700B2203E /* LandmarksApp.swift */; };
 		DACA540826F3E84700B2203E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA540726F3E84700B2203E /* ContentView.swift */; };
 		DACA540A26F3E84900B2203E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACA540926F3E84900B2203E /* Assets.xcassets */; };
@@ -158,7 +169,6 @@
 		DAC9E5842702374A001442DE /* WatchLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC9E5862702374C001442DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC9E58C2702374C001442DE /* WatchLandmarks WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchLandmarks WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAC9E5912702374D001442DE /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		DAC9E5932702374D001442DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAC9E5952702374D001442DE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		DAC9E5972702374D001442DE /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
@@ -326,7 +336,6 @@
 		DAC9E5902702374C001442DE /* WatchLandmarks WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				DAC9E5912702374D001442DE /* LandmarksApp.swift */,
 				DAC9E5932702374D001442DE /* ContentView.swift */,
 				DAC9E5952702374D001442DE /* NotificationController.swift */,
 				DAC9E5972702374D001442DE /* NotificationView.swift */,
@@ -668,7 +677,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC9E5CB270238C8001442DE /* hikeData.json in Resources */,
 				DAC9E59F2702374E001442DE /* Preview Assets.xcassets in Resources */,
+				DAC9E5CA270238C8001442DE /* Assets.xcassets in Resources */,
+				DAC9E5D3270238C8001442DE /* landmarkData.json in Resources */,
 				DAC9E59C2702374E001442DE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -719,11 +731,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC9E5CC270238C8001442DE /* Hike.swift in Sources */,
+				DAC9E5CD270238C8001442DE /* LandmarksApp.swift in Sources */,
 				DAC9E5962702374D001442DE /* NotificationController.swift in Sources */,
+				DAC9E5D4270238C8001442DE /* ModelData.swift in Sources */,
+				DAC9E5C9270238C8001442DE /* Profile.swift in Sources */,
 				DAC9E5942702374D001442DE /* ContentView.swift in Sources */,
 				DAC9E59A2702374D001442DE /* ComplicationController.swift in Sources */,
-				DAC9E5922702374D001442DE /* LandmarksApp.swift in Sources */,
+				DAC9E5CE270238C8001442DE /* LandmarkRow.swift in Sources */,
+				DAC9E5D2270238C8001442DE /* LandmarkList.swift in Sources */,
+				DAC9E5CF270238C8001442DE /* MapView.swift in Sources */,
+				DAC9E5D1270238C8001442DE /* CircleImage.swift in Sources */,
 				DAC9E5982702374D001442DE /* NotificationView.swift in Sources */,
+				DAC9E5D0270238C8001442DE /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
